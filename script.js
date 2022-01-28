@@ -1,4 +1,4 @@
-colorjs
+
 function ChangeColor(){    
     let backgroundRed= document.querySelectorAll(".red");
     console.log(backgroundRed);
@@ -19,7 +19,7 @@ for(i=0; i<redText.length; i++){
 }
     
 }
-=======
+
 
 var image = document.getElementById('img')
 var rewardBtn = document.getElementById('reward-btn')
@@ -129,5 +129,3 @@ function onSubmit()
 
 }
 
-
- main
