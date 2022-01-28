@@ -1,12 +1,11 @@
 body
 {
  background-color: white;
+  font-family: 'Anton', sans-serif;
 }
-
 
 main{
     display: flex;
-
     justify-content: space-around;
 }
 
@@ -46,4 +45,27 @@ main{
     margin: 0 auto;
     text-align: center;
     line-height: 100px;
+}
+
+.header__title
+{ 
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 200px;
+    color: #fff;
+}
+
+.header__sub-title
+{ 
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    color: #fff;
+}
+
+
+
+header 
+{
+    background-color: #eb2411;
 }
