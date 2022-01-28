@@ -4,9 +4,25 @@ body
  font-family: 'Anton', sans-serif;
 }
 
-.header__title 
+.header__title
 { 
     text-align: center;
     font-family: 'Anton', sans-serif;
-    font-size: 100px;
+    font-size: 200px;
+    color: #fff;
+}
+
+.header__sub-title
+{ 
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    color: #fff;
+}
+
+
+
+header 
+{
+    background-color: #eb2411;
 }
