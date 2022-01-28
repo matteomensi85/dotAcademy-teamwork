@@ -69,3 +69,10 @@ header
 {
     background-color: #eb2411;
 }
+.footer{
+    background-color: #eb2411;
+    display: flex;
+    align-content:center ;
+    justify-content: center;
+    color: white;
+}
