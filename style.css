@@ -72,7 +72,21 @@ header
 .footer{
     background-color: #eb2411;
     display: flex;
-    align-content:center ;
+    align-content: center;
     justify-content: center;
     color: white;
+    flex-direction: column;
+    align-items: center;
+}
+#call{
+
+    font-size: 40px;
+    font-weight: bold;
+}
+#number{
+    margin-block-start: unset;
+    margin-block-end: unset;
+    border-bottom: 0px;
+    font-size: 72px;
+    font-weight: bold;
 }
