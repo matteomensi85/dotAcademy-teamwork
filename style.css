@@ -65,10 +65,7 @@ main{
 
 
 
-header 
-{
-    background-color: #eb2411;
-}
+
 .footer{
     background-color: #eb2411;
     display: flex;
@@ -87,6 +84,12 @@ header
     margin-block-start: unset;
     margin-block-end: unset;
     border-bottom: 0px;
-    font-size: 72px;
+    font-size: 200px;
     font-weight: bold;
+}
+.red{
+    background-color: #eb2411;
+}
+.red-text{
+    color:#eb2411;
 }
