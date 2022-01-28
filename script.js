@@ -7,11 +7,14 @@ console.log(redText);
     random = Math.random().toString(16).slice(2,8);
     console.log(random);
     colorRed += random
-    
-for(i=0; i<=backgroundRed.length; i++){
-    backgroundRed[i].style.backgroundColor = colorRed;
-    redText[i].style.color = colorRed;
+    let borderChange= document.querySelector(".details-up")
+    console.log(borderChange);
+    borderChange.style.borderBottom= `10px ${colorRed} solid`;
+for(i=0; i<backgroundRed.length; i++){
+    backgroundRed[i].style.backgroundColor =  colorRed;
 }
-
+for(i=0; i<redText.length; i++){
+    redText[i].style.color = colorRed
+}
     
 }
