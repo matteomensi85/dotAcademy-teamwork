@@ -1,7 +1,50 @@
 body
 {
  background-color: white;
- font-family: 'Anton', sans-serif;
+  font-family: 'Anton', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.details{
+    text-align: start;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    color: #eb2411;
+    font-size: 72px;
+
+}
+
+.details-up{
+    border-bottom: 10px #eb2411 solid ;
+}
+
+.list-details{
+    list-style: none;
+    
+}
+
+.list-details em{
+    color: #eb2411;
+    font-weight: bold;
+}
+
+
+.reward-box{
+    color: white;
+    background-color: black;
+    width: 250px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
 }
 
 .header__title
