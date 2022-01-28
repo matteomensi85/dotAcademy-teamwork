@@ -39,7 +39,7 @@
                     <br>
                      january 2030 and was last seen at grise ford park.
                 </h2>
-                <div class='reward-box'>
+                <div id='reward-btn' class='reward-box'>
                     <p>$200 REWARD</p>
                 </div>
             </div>
@@ -47,6 +47,28 @@
         </div>
         
     </main>
+
+<form action="" method="post" enctype="multipart/form-data"></form>
+    <fieldset>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name-input" required>
+        <br>
+        <label for="surname">Surname: </label>
+        <input type="text" name="surname" id="surname-input" required>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email-input" required>
+        <br>
+        <label for="phone">Phone: </label>
+        <input type="number" name="phone" id="phone-input" required>
+    </fieldset>
+    <input type="reset" value="reset">
+    <input type="button" value="submit" onclick="onSubmit()">     
+    <br>
+    <br>
+</form>
+
+
 <footer>
     <div class="footer red">
         <h2 id="call">

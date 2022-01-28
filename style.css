@@ -7,6 +7,7 @@ body
 main{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .details{
@@ -45,6 +46,7 @@ main{
     margin: 0 auto;
     text-align: center;
     line-height: 100px;
+    cursor: pointer;
 }
 
 .header__title
